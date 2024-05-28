@@ -1,0 +1,109 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BePlus.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BePlus.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\resources\\1.png",
+      "PackagePath": "staticwebassets\\resources\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\resources\\2.png",
+      "PackagePath": "staticwebassets\\resources\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\resources\\Rick.mp4",
+      "PackagePath": "staticwebassets\\resources\\Rick.mp4"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\resources\\bloodcomp.png",
+      "PackagePath": "staticwebassets\\resources\\bloodcomp.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\resources\\dyk.png",
+      "PackagePath": "staticwebassets\\resources\\dyk.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\resources\\favicon.ico",
+      "PackagePath": "staticwebassets\\resources\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\resources\\giftlife.png",
+      "PackagePath": "staticwebassets\\resources\\giftlife.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\resources\\sample.png",
+      "PackagePath": "staticwebassets\\resources\\sample.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\resources\\usage.png",
+      "PackagePath": "staticwebassets\\resources\\usage.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BePlus.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BePlus.props",
+      "PackagePath": "build\\BePlus.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BePlus.props",
+      "PackagePath": "buildMultiTargeting\\BePlus.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BePlus.props",
+      "PackagePath": "buildTransitive\\BePlus.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

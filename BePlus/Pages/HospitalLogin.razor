@@ -1,0 +1,98 @@
+﻿@page "/hospitallogin"
+@inject NavigationManager Navigation
+
+<PageTitle>Be+ Hospital SignIn</PageTitle>
+
+    <header>
+        <img src="resources/2.png" width="auto" height="150px">
+        <nav>
+            <ul>
+                <li><a href="/">BE+ Home</a></li>
+                <li><a href="adminlogin">BE+ Admin</a></li>
+                <li><a href="donorpage">Donate Blood</a></li>
+                <li><a href="bbsignin">Blood-Banks</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    @if(showLogin)
+    {
+    <div class="body-content">
+        <div class="login-card">
+            <h1 style="margin-bottom: 3px">BE+ Hospitals</h1>
+            <h2 style="margin-top: 3px;">Login Page</h2>
+            <h4>Login from here to access Hosptial controls</h4>
+            <br />
+
+            <label>User :</label>
+            <input type="text" name="" @bind="user"> <br>
+            <label>Pass :</label>
+            <input type="password" @bind="pass">
+
+            <div style="text-align: center;">
+                <button class="buttontypetwo" @onclick="evaluate">Sign In to BE+</button>
+            </div>
+            <p style="margin-top: 40px;">Not a member? <a href="hospitalreg">Sign Up here</a></p>
+        </div>
+    </div>
+    }
+    else
+    {
+        <div class="body-content">
+        <div class="login-card">
+            <h1 style="margin-bottom: 3px">BE+ Hospitals</h1>
+            <h2 style="margin-top: 3px;">Login Page</h2>
+            <br>
+            <h3>Login Succesfull</h3>
+            <h5>Redirecting you to the Request Form</h5>
+             @{
+                Task.Delay(3000).ContinueWith(_ => { NavigationManager.NavigateTo("/request"); });
+              }
+
+
+        </div>
+    </div>
+    }
+
+    <hr>
+
+
+    <!-- FOOTER AREA-->
+    <footer>
+        <div class="footer-list">
+            <ul>
+                <li><a href="aboutpage">About Be+</a></li>
+                <li style="padding-left: 705px;"><a href="HMAS">About HMAS</a></li>
+                <br>
+                <li><a href="rick">Rick</a></li>
+            </ul>
+        </div>
+        <p>&copy; 2024 Be+ Blood Bank WebApp. Property of HMAS. All rights reserved.</p>
+    </footer>
+
+
+@code {
+    public string hosUser = "Pims";
+    public string hosPass = "Pims@123";
+
+    public string user {get; set;}
+    public string pass {get; set;}
+
+    public bool showLogin = true;
+    private bool isLoginSuccess = false;
+
+    public void evaluate()
+    {
+        if(user == hosUser && pass == hosPass) { showLogin = false; }
+    }
+
+    [Inject]
+    private NavigationManager NavigationManager { get; set; }
+
+    private async Task Login() { isLoginSuccess = true; }
+
+
+    //fetch data from DB to see if a registered hospital with these credentials exists,  and let them pass thru to the homepage 
+
+}

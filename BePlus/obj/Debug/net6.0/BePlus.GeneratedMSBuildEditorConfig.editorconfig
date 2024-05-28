@@ -1,0 +1,99 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BePlus
+build_property.RootNamespace = BePlus
+build_property.ProjectDir = C:\Users\ADMIN\Desktop\rao\BePlus\BePlus-BlazorProject\BePlus\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ADMIN\Desktop\rao\BePlus\BePlus-BlazorProject\BePlus
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/About.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/AdminHome.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5Ib21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/AdminLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5Mb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/BloodBankHome.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvb2RCYW5rSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/BloodBankSignIn.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvb2RCYW5rU2lnbkluLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/BloodBankSignUp.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvb2RCYW5rU2lnblVwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/DonorPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9ub3JQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/HMAS.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSE1BUy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/HospitalHome.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9zcGl0YWxIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/HospitalLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9zcGl0YWxMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/HospitalReg.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9zcGl0YWxSZWcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/Rick.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmljay5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/Z-Test.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcWi1UZXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-jippwygfw2
+
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-oxvrpl204l
+
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

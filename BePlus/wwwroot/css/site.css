@@ -1,0 +1,214 @@
+body {
+    background-color: #5e0b15;
+    font-family: Verdana;
+    padding: 13px;
+    margin: 0px;
+    font-size: 18px;
+}
+
+header {
+    border-radius: 6px;
+    justify-content: space-between;
+    display: flex;
+    background-color: #f9eae1;
+    padding: 20px;
+    align-items: center;
+}
+
+.body-content {
+    background-color: #f9eae1;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+footer {
+    /*width: 100%;*/
+    background-color: #2b3d41;
+    color: #f9eae1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+    font-size: 11px;
+    border-radius: 6px;
+}
+
+.footer-list, .footer-list ul li {
+    text-align: left;
+    color: #f9eae1;
+    list-style-type: none;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: #f9eae1;
+    font-size: 16px;
+}
+
+    a:hover {
+        color: lightblue;
+    }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+        nav ul li a {
+            color: #5e0b15;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+            nav ul li a:hover {
+                color: #5f7470;
+            }
+
+a button {
+    background: #90323d;
+    border: 1px solid #90323d;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+    a button:hover, a button:active {
+        background-color: initial;
+        background-position: 0 0;
+        color: #90323d;
+    }
+
+    a button:active {
+        opacity: .5;
+    }
+
+.buttontypetwo {
+    background-color: #90323d;
+    color: #f9eae1;
+    font-size: 14px;
+    padding: 10px 15px;
+    ;
+    margin: 5px;
+    border: 1px solid #f9eae1;
+    border-radius: 6px;
+    transition: background-color 0.7s ease;
+}
+
+    .buttontypetwo:hover {
+        background-color: #f9eae1;
+        color: #90323d;
+    }
+
+.login-card {
+    background-color: #90323d;
+    padding: 60px;
+    margin: 50px 100px;
+    color: #f9eae1;
+    text-align: center;
+    border-radius: 6px;
+}
+
+    .login-card label {
+        margin-bottom: 5px;
+    }
+
+    .login-card input {
+        font-size: 17px;
+        margin-bottom: 11px;
+        border-radius: 3px;
+        border: 2px solid #f9eae1;
+        background-color: #f9eae1;
+        color: #5e0b15;
+    }
+
+.donate-card {
+    background-color: #90323d;
+    padding: 50px 60px;
+    margin: 50px 100px;
+    color: #f9eae1;
+    text-align: left;
+    border-radius: 6px;
+}
+
+    .donate-card label {
+        border: 1px solid #f9eae1;
+        padding: 10px;
+        margin: 0 0 10px;
+        display: block;
+        transition: background-color 0.7s ease;
+    }
+
+        .donate-card label:hover {
+            background: #f9eae1;
+            color: #5e0b15;
+            cursor: pointer;
+        }
+
+    .donate-card input {
+        font-size: 17px;
+        margin-bottom: 11px;
+        border-radius: 3px;
+        border: 2px solid #f9eae1;
+        background-color: #f9eae1;
+        color: #5e0b15;
+    }
+
+.form-container {
+    display: flex;
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
+    .form-group:last-child {
+        margin-right: 0;
+    }
+
+    .form-group label {
+        margin-right: 10px;
+        white-space: nowrap;
+    }
+
+    .form-group input {
+        flex-grow: 1;
+        width: 100%;
+    }
+
+
+.makeshift-label {
+    padding: 10px;
+    margin: 0 0 10px;
+    display: block;
+}
+
+hr{ color : white;}

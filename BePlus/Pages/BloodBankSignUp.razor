@@ -1,0 +1,111 @@
+﻿@page "/bbsignup"
+@inject NavigationManager Navigation
+<PageTitle>Be+ Donor SignIn</PageTitle>
+
+
+<header>
+	<img src="resources/2.png" width="auto" height="150px">
+	<nav>
+		<ul>
+			<li><a href="/">BE+ Home</a></li>
+			<li><a href="adminlogin">Admin</a></li>
+			<li><a href="hospitallogin">Request Blood</a></li>
+			<li><a href="donorpage">Donate Blood</a></li>
+
+		</ul>
+	</nav>
+</header>
+<hr>
+
+@if (!form)
+{
+	<div class="body-content">
+		<div class="donate-card">
+			<!-- HEADING AREA -->
+			<h1 style="margin-bottom: 3px; font-weight:600;">BE+ Blood</h1>
+			<h2 style="margin-top: 3px;">Donation Form</h2>
+
+			<h4>Fill out the following form to register yourself with us</h4>
+			<br><br>
+			<!-- HEADING AREA -->
+
+
+			<div class="form-container">
+				<div class="form-group">
+					<span class="makeshift-label">Name:</span>	<input type="text" required @bind="Bname">
+				</div>
+
+				<div class="form-group">
+					<span class="makeshift-label">Username:</span>	<input type="text" required @bind="Uname">
+				</div>
+			</div>
+			<div class="form-container">
+				<div class="form-group">
+					<span class="makeshift-label">Phone:</span>	<input type="number" required @bind="phone">
+				</div>
+
+				<div class="form-group">
+					<span class="makeshift-label">Password:</span>	<input type="password" required @bind="password">
+				</div>
+			</div>
+
+
+			<div style="text-align: center;">
+				<button class="buttontypetwo" @onclick=@did>Send Join Request</button>
+			</div>
+
+		</div>
+	</div>
+}
+else
+{
+	<div class="body-content">
+		<div class="login-card">
+			<h1 style="margin-bottom: 3px">BE+ Hospitals</h1>
+			<h2 style="margin-top: 3px;">Login Page</h2>
+			<br>
+			<h3>Login Succesfull</h3>
+			<h5>Redirecting you to the Request Form</h5>
+			@{
+				Task.Delay(3000).ContinueWith(_ => { Navigation.NavigateTo("/bbsignin"); });
+			}
+
+
+		</div>
+	</div>
+}
+
+<hr>
+<footer>
+	<div class="footer-list">
+		<ul>
+			<li><a href="aboutpage">About Be+</a></li>
+			<li style="padding-left: 705px;"><a href="HMAS">About HMAS</a></li>
+			<br>
+			<li><a href="rick">Rick</a></li>
+		</ul>
+	</div>
+	<p>&copy; 2024 Be+ Blood Bank WebApp. Property of HMAS. All rights reserved.</p>
+</footer>
+
+
+@code {
+	public string Bname { get; set; }
+	public string Uname { get; set; }
+	public long phone;
+	public string password { get; set; }
+
+	public bool form = false;
+	public void did()
+	{
+		form = true;
+	}
+
+	// Fetch data from the DB and make sure no one w the same username is Registered. 
+	// Send data to DB after the entered dat ahas been validated
+
+	
+
+
+
+}

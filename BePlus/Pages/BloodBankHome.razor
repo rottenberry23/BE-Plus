@@ -1,0 +1,112 @@
+﻿@page "/bbhome"
+
+@inject NavigationManager Navigation
+
+<PageTitle>Be+ Blood Bank SignIn</PageTitle>
+
+<header>
+    <img src="resources/2.png" width="auto" height="150px">
+    <nav>
+        <ul>
+            <li><a href="/">BE+ Home</a></li>
+            <li><a href="adminlogin">BE+ Admin</a></li>
+            <li><a href="donorpage">Donate Blood</a></li>
+            <li><a href="hospitallogin">Request Blood</a></li>
+        </ul>
+    </nav>
+</header>
+<hr>
+
+
+<div class="body-content">
+    <div class="donate-card">
+
+        <h1>BE+ Blood Banks</h1>
+        <h2 style="margin-top: 3px;">Home Page</h2>
+        <br />
+        <hr />
+        <br />
+
+        <h5>Number of Pending Appointments for Infusion Bank, RawalPindi : 2</h5>
+        Details:
+        <ol>
+            <li>Appointment ID : 221</li>
+            <ul>
+                <li> Name : Ahmed Ali</li>
+                <li> CNIC : 1234567890123</li>
+                <li> Location : Infusion bank, RawalPindi</li>
+                <li> Date : 21-08-2024  || 01:00 PM</li>
+            </ul>
+            <hr style="border-top:2px dotted white; background-color: transparent;" />
+            <li>Appointment ID : 230</li>
+            <ul>
+                <li> Name : Rick Astley</li>
+                <li> CNIC : 43267924840191</li>
+                <li> Location : Infusion Bank, RawalPindi</li>
+                <li> Date : 15-08-2024 || 03:00 PM</li>
+            </ul>
+        </ol>
+        <hr />
+        <hr />
+        <br />
+
+        <h5>Current Ongoing Appointment</h5>
+        Details:
+        <ol>
+            <li>Appointment ID : 212</li>
+            <ul>
+                <li> Name : Jonathan Joestar</li>
+                <li> CNIC : 1234567890123</li>
+                <li> Location : Infusion bank, RawalPindi</li>
+                <li> Date : 15-08-2024  || 01:00 PM</li>
+            </ul>
+            Collected Blood: 
+            <button class="buttontypetwo">A+</button>
+            <button class="buttontypetwo">A-</button>
+            <button class="buttontypetwo">B-</button>
+            <button class="buttontypetwo">B+</button>
+            <button class="buttontypetwo">AB-</button>
+            <button class="buttontypetwo">AB+</button>
+            <button class="buttontypetwo">O+</button>
+            <button class="buttontypetwo">O-</button>
+        </ol>
+        <hr />
+        <hr />
+        <br />
+
+
+
+
+
+
+    </div>
+
+</div>
+
+
+<hr>
+
+<!-- FOOTER AREA-->
+<footer>
+    <div class="footer-list">
+        <ul>
+            <li><a href="aboutpage">About Be+</a></li>
+            <li style="padding-left: 705px;"><a href="HMAS">About HMAS</a></li>
+            <br>
+            <li><a href="rick">Rick</a></li>
+        </ul>
+    </div>
+    <p>&copy; 2024 Be+ Blood Bank WebApp. Property of HMAS. All rights reserved.</p>
+</footer>
+
+
+@code {
+    
+    // fetch details from DB
+
+
+    // fetch appointments that are made to every the collection point that has signed in at the moment and show a button "blood collected"
+    // the card should show this studd : name of donor, CNIC, Phone, what type of blood has been collected
+
+    // fetch requests for blood that have been made to this certain blood bank and a button that says |approve request|
+}

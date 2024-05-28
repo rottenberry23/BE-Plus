@@ -1,0 +1,43 @@
+﻿@page "/rick"
+@inject NavigationManager Navigation
+<PageTitle>Be Rick Rolled</PageTitle>
+
+
+
+<header>
+	<img src="resources/2.png" width="auto" height="150px">
+	<nav>
+		<ul>
+			<li><a href="/">BE+ Home</a></li>
+			<li><a href="donorpage">Donate Blood</a></li>
+			<li><a href="hospitallogin">Request Blood</a></li>
+		</ul>
+	</nav>
+</header>
+<hr>
+
+<div class="body-content">
+    <h1 style="text-align:center;">GET RICK ROLLED </h1><br />
+	<div style="text-align:center;">
+    <video width="500" height="auto" controls autoplay>
+        <source src="resources/Rick.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+
+<hr>
+<footer>
+	<div class="footer-list">
+		<ul>
+			<li><a href="aboutpage">About Be+</a></li>
+			<li style="padding-left: 705px;"><a href="HMAS">About HMAS</a></li>
+			<br>
+			<li><a href="rick">Rick</a></li>
+		</ul>
+	</div>
+	<p>&copy; 2024 Be+ Blood Bank WebApp. Property of HMAS. All rights reserved.</p>
+</footer>
+@code {
+
+}

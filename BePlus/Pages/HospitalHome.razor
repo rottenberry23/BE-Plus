@@ -1,0 +1,102 @@
+﻿@page "/request"
+@inject NavigationManager Navigation
+<PageTitle>Be+ Request Blood</PageTitle>
+	
+	<header>
+		<img src="resources/2.png" width="auto" height="150px">
+		<nav>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="adminlogin">Admin</a></li>
+				<li><a href="donorpage">Donate Blood</a></li>
+				<li><a href="bbsignin">Blood-Banks</a></li>
+				
+			</ul>
+		</nav>
+	</header>
+	<hr>
+
+	<div class="body-content">
+		<div class="donate-card">
+			<!-- HEADING AREA -->
+			<h1 style="margin-bottom: 3px; font-weight:600;">BE+ Blood</h1>
+			<h2 style="margin-top: 3px;">Request Form</h2>
+			<br />
+		@if (!form)
+		{
+			<h5>Fill out the following form to Request Blood from a Blood Bank</h5>
+
+			<!-- HEADING AREA -->
+
+
+			<div class="donate-card">
+				<span class="makeshift-label">Select Type of Blood :</span>
+				<label><input type="radio" name="options2" @onchange="@((args) => type = "A+")" /> A+</label>
+				<label><input type="radio" name="options2" @onchange="@((args) => type = "A-")" /> A-</label>
+				<label><input type="radio" name="options2" @onchange="@((args) => type = "B+")" /> B+</label>
+				<label><input type="radio" name="options2" @onchange="@((args) => type = "B-")" /> B-</label>
+				<label><input type="radio" name="options2" @onchange="@((args) => type = "O+")" /> O+</label>
+				<label><input type="radio" name="options2" @onchange="@((args) => type = "O-")" /> O-</label>
+				<label><input type="radio" name="options2" @onchange="@((args) => type = "AB+")" /> AB+</label>
+				<label><input type="radio" name="options2" @onchange="@((args) => type = "AB-")" /> AB-</label>
+
+				<br>
+
+				@* ADD VAILABLE LOCATIONS HERE *@
+
+				<div style="text-align: center;">
+					<button class="buttontypetwo" @onclick="sendtoDB"> Publish Request</button>
+				</div>
+
+			</div>
+		}
+		else
+		{
+			<h3>Your Request has been successfully made with the Following details:</h3>
+				<p>Blood type : @type</p>
+			<br>  @* THIS DATA GOES TO THE DB *@
+
+			<br />
+			<button class="buttontypetwo" @onclick="NavigateHome">Go back to Home Page</button>
+			
+		}
+	</div>
+</div>
+	
+
+	<hr>
+	<footer>
+		<div class="footer-list">
+			<ul>
+				<li><a href="aboutpage">About Be+</a></li>
+				 <li style="padding-left: 705px;"><a href="HMAS">About HMAS</a></li> 
+				<br>
+				<li><a href="rick">Rick</a></li>
+			</ul>
+		</div>
+		 <p>&copy; 2024 Be+ Blood Bank WebApp. Property of HMAS. All rights reserved.</p>
+	</footer>
+
+	
+	
+@code{
+	public string type;
+	public bool form = false;
+	public void NavigateHome() { Navigation.NavigateTo("/"); }
+	public void sendtoDB()
+	{
+		form = !form;
+		// send the new credentials to the DB as a new request for blood
+	}
+
+
+
+	/*
+			this page send : 
+				hospital name, type of blood required to the DB
+			this page needs: 
+				list of locations with a certain type of blood
+
+	 */
+
+}

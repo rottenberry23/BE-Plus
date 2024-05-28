@@ -1,0 +1,171 @@
+﻿@page "/adminhome"
+
+@inject NavigationManager Navigation
+
+<PageTitle>Be+ Blood Bank SignIn</PageTitle>
+
+<header>
+    <img src="resources/2.png" width="auto" height="150px">
+    <nav>
+        <ul>
+            <li><a href="/">BE+ Home</a></li>
+            <li><a href="donorpage">Donate Blood</a></li>
+            <li><a href="hospitallogin">Request Blood</a></li>
+            <li><a href="bbsignin">Blood-Banks</a></li>
+        </ul>
+    </nav>
+</header>
+<hr>
+
+
+<div class="body-content">
+    <div class="donate-card">
+        <h1>BE+ Admins</h1>
+        <h2 style="margin-top: 3px;">Summary Page</h2>
+        <br />
+        <h3>This page contains the Summary of the Data from the Database</h3>
+        <br />
+        <hr />
+        <br />
+
+        <h5>Number of Pending Appointments from Every Collection Point : 3</h5>
+        Details:
+        <ol>
+            <li>Appointment ID : 221</li>
+            <ul>
+                <li> Name : Ahmed Ali</li>
+                <li> CNIC : 1234567890123</li>
+                <li> Location : Drops of Life, Islamabad</li>
+                <li> Date : 21-08-2024  || 01:00 PM</li>
+            </ul>
+            <hr style="border-top:2px dotted white; background-color: transparent;" />
+            <li>Appointment ID : 230</li>
+            <ul>
+                <li> Name : Rick Astley</li>
+                <li> CNIC : 43267924840191</li>
+                <li> Location : Infusion Bank, RawalPindi</li>
+                <li> Date : 15-08-2024 || 03:00 PM</li>
+            </ul>
+            <hr style="border-top:2px dotted white; background-color: transparent;" />
+            <li>Appointment ID : 269</li>
+            <ul>
+                <li> Name : Jonathan Joestar</li>
+                <li> CNIC : 1234567890123</li>
+                <li> Location : Drops of Life, RawalPindi</li>
+                <li> Date : 15-08-2024 || 02:00 PM</li>
+            </ul>
+        </ol>
+        <hr />
+        <hr />
+        <br />
+
+        <h5>Number of Registered Hospitals : 3</h5>
+        Details:
+        <ol>
+            <li>userName : pims@email.com</li>
+            <ul>
+                <li> Name : PIMS, Islamabad</li>
+            </ul>
+
+            <hr style="border-top:2px dotted white; background-color: transparent;"/>
+           
+            <li>userName : cmh@email.com</li>
+            <ul>
+                <li> Name : CMH, Multan</li>
+            
+            </ul>
+            <hr style="border-top:2px dotted white; background-color: transparent;" />
+            
+            <li>userName : skhanam@email.com</li>
+            <ul>
+                <li> Name : Shuakat Khannam, Islamabad</li>
+            </ul>
+        </ol>
+        <hr /><hr />
+        <br />
+
+
+        <h5>Number of Registered Collection Points : 2</h5>
+        Details:
+        <ol>
+            <li>userName : infuse@email.com</li>
+            <ul>
+                <li> Name : Infusion Bank, RawalPindi</li>
+            </ul>
+
+            <hr style="border-top:2px dotted white; background-color: transparent;" />
+
+            <li>userName : dol@email.com</li>
+            <ul>
+                <li> Name : Drops of Life, Islamabad</li>
+            </ul>
+
+        </ol>
+        <hr /><hr />
+        <br />
+
+        <h5>Requests for Hospital Registration : 2</h5>
+        Details:
+        <ol>
+            <li>userName : sample@email.com</li>
+            <ul>
+                <li> Name : Sample Hospital, RawalPindi</li>
+            </ul>
+            <button class="buttontypetwo">Approve</button>
+            <button class="buttontypetwo">Disapprove</button>
+
+            <hr style="border-top:2px dotted white; background-color: transparent;" />
+
+            <li>userName : shifa@email.com</li>
+            <ul>
+                <li> Name : Shifa International, Islamabad</li>
+            </ul>
+            <button class="buttontypetwo">Approve</button>
+            <button class="buttontypetwo">Disapprove</button>              
+        </ol>
+        <hr /><hr />
+        <br />
+
+        <h5>Requests for Collection Point Registration : 0 </h5>
+        Details:
+            Nothing to show here...
+        <hr /><hr />
+        <br />
+
+
+
+
+
+
+
+    </div>
+
+</div>
+
+
+<hr>
+
+<!-- FOOTER AREA-->
+<footer>
+    <div class="footer-list">
+        <ul>
+            <li><a href="aboutpage">About Be+</a></li>
+            <li style="padding-left: 705px;"><a href="HMAS">About HMAS</a></li>
+            <br>
+            <li><a href="rick">Rick</a></li>
+        </ul>
+    </div>
+    <p>&copy; 2024 Be+ Blood Bank WebApp. Property of HMAS. All rights reserved.</p>
+</footer>
+
+
+@code {
+
+    // fetch details from DB
+
+
+    // fetch appointments that are made to every the collection point that has signed in at the moment and show a button "blood collected"
+    // the card should show this studd : name of donor, CNIC, Phone, what type of blood has been collected
+
+    // fetch requests for blood that have been made to this certain blood bank and a button that says |approve request|
+}
